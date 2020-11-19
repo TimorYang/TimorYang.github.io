@@ -127,11 +127,11 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : c9a4654d8e089ad8b187 # GitHub Application Client ID
-    clientSecret: fb68f4fa68906436913cae4665dda519dd63ecea # GitHub Application Client Secret
+    clientID    : 027e5ac2ba77af512d8f # GitHub Application Client ID
+    clientSecret: 9491c60ef5bbf5dbe4e6a3f8fbb3afe792b7f0a7 # GitHub Application Client Secret
     repository  : TimorYang.github.io # GitHub repo
     owner       : TimorYang # GitHub repo owner
-    admin: TimorYang # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    admin       : TimorYang # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
