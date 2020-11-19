@@ -129,7 +129,7 @@ comments:
   gitalk:
     clientID    : c9a4654d8e089ad8b187 # GitHub Application Client ID
     clientSecret: fb68f4fa68906436913cae4665dda519dd63ecea # GitHub Application Client Secret
-    repository  : https://github.com/TimorYang/TimorYang.github.io # GitHub repo
+    repository  : TimorYang.github.io # GitHub repo
     owner       : TimorYang # GitHub repo owner
     admin: TimorYang # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
