@@ -20,9 +20,9 @@ text_skin: default # "default" (default), "dark", "forest", "ocean", "chocolate"
 highlight_theme: default # "default" (default), "tomorrow", "tomorrow-night", "tomorrow-night-eighties", "tomorrow-night-blue", "tomorrow-night-bright"
 url     : # the base hostname & protocol for your site e.g. https://www.someone.com
 baseurl : # does not include hostname
-title   : 爱折腾的TimorYang
+title   : The treasure of TimorYang
 description: > # this means to ignore newlines until "Language & timezone"
-  爱玩提莫的Developer
+  😄，很高心您能找到这里🎉
 
 
 ## => Language and Timezone
@@ -37,7 +37,7 @@ author:
   type      : # "person" (default), "organization"
   name      : TimorYang
   url       :
-  avatar    : # path or url of avatar image (square)
+  avatar    : https://s3.ax1x.com/2020/11/19/Du4cVI.jpg
   bio       : Talk is cheap, Show me the code.
   email     : iyangzhidong@gmail.com
   facebook  : # "user_name" the last part of your profile url, e.g. https://www.facebook.com/user_name
@@ -118,7 +118,7 @@ sharing:
 ## => Comments
 ##############################
 comments:
-  provider: false # false (default), "disqus", "gitalk", "valine", "custom"
+  provider: gitalk # false (default), "disqus", "gitalk", "valine", "custom"
 
   ## Disqus
   disqus:
@@ -127,11 +127,11 @@ comments:
   ## Gitalk
   # please refer to https://github.com/gitalk/gitalk for more info.
   gitalk:
-    clientID    : # GitHub Application Client ID
-    clientSecret: # GitHub Application Client Secret
-    repository  : # GitHub repo
-    owner       : # GitHub repo owner
-    admin: # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
+    clientID    : c9a4654d8e089ad8b187 # GitHub Application Client ID
+    clientSecret: fb68f4fa68906436913cae4665dda519dd63ecea # GitHub Application Client Secret
+    repository  : https://github.com/TimorYang/TimorYang.github.io # GitHub repo
+    owner       : TimorYang # GitHub repo owner
+    admin: TimorYang # GitHub repo owner and collaborators, only these guys can initialize GitHub issues, IT IS A LIST.
       # - your GitHub Id
 
   ## Valine
@@ -147,13 +147,13 @@ comments:
 ## => Pageview
 ##############################
 pageview:
-  provider: false # false (default), "leancloud", "custom"
+  provider: "leancloud" # false (default), "leancloud", "custom"
 
   ## Leancloud
   leancloud:
-    app_id    : # LeanCloud App id
-    app_key   : # LeanCloud App key
-    app_class : # LeanCloud App class
+    app_id    : hB1zUAVtdedTyuOfY4jITzUN-gzGzoHsz # LeanCloud App id
+    app_key   : YBGNdAJ5v7MNOTV4jJMTs9Nw # LeanCloud App key
+    app_class : blog # LeanCloud App class
 
 
 ## => Search
@@ -163,7 +163,7 @@ search:
 
   ## Google Custom Search Engine
   google:
-    custom_search_engine_id: # Google Custom Search Engine ID
+    custom_search_engine_id: UA-98851813-1 # Google Custom Search Engine ID
 
 
 ## => Analytics
