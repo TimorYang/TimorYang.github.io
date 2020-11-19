@@ -18,8 +18,5 @@ titles:
 key: page-about
 ---
 
-Just say something about yourself. :+1:
-
-{% highlight javascript %}
-(() => console.log('hello, world!'))();
-{% endhighlight %}
+iOS Developer, 数码设备爱好者, 喜欢各种折腾, 目前正在开发一款个人影音终端(类似Kodi)
+😜
